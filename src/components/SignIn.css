@@ -1,0 +1,18 @@
+.center {
+  margin: 12rem auto;
+  width: 36%;
+}
+.title {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+@media screen and (max-width: 600px) {
+  .center {
+    width: 90%;
+  }
+}
+@media screen and (min-width: 601px) and (max-width: 1400px) {
+  .center {
+    width: 40%;
+  }
+}

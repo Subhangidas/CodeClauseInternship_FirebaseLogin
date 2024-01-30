@@ -1,0 +1,29 @@
+import { initializeApp } from 'firebase/app';
+import { getAnalytics } from 'firebase/analytics';
+import {
+  getAuth,
+  GoogleAuthProvider,
+  GithubAuthProvider,
+  FacebookAuthProvider,
+  PhoneAuthProvider,
+} from 'firebase/auth';
+
+// Your web app's Firebase configuration
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+const firebaseConfig = {
+  apiKey: 'add_yourkey',
+  authDomain: 'auth-signin-49d48.firebaseapp.com',
+  projectId: 'auth-signin-49d48',
+  storageBucket: 'auth-signin-49d48.appspot.com',
+  messagingSenderId: 'add_yourid',
+  appId: '1:add_id:web:add_id',
+  measurementId: 'add_yourid',
+};
+
+const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);
+export const auth = getAuth(app);
+export const googleProvider = new GoogleAuthProvider();
+export const githubProvider = new GithubAuthProvider();
+export const facebookProvider = new FacebookAuthProvider();
+export const phoneProvider = new PhoneAuthProvider();

@@ -1,0 +1,109 @@
+.signUp {
+  width: 30%;
+  margin: 5rem auto;
+}
+.new {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+.line {
+  width: 40%;
+  border: none;
+  border-bottom: 2px solid;
+  border-color: rgb(190, 190, 190);
+  display: inline-block;
+  margin-bottom: 0.5rem;
+}
+.or {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: rgb(170, 170, 170);
+}
+.google {
+  width: 100%;
+  height: 2.4rem;
+  background: white;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 1.5rem;
+  border: 2px solid rgb(190, 190, 190);
+  margin-bottom: 0.5rem;
+}
+.credential {
+  margin: auto;
+  width: 90%;
+}
+.label {
+  color: black;
+  font-weight: 600;
+  font-size: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.span {
+  color: red;
+}
+.email {
+  display: block;
+  margin-bottom: 1rem;
+  outline: none;
+  width: 100%;
+  height: 2rem;
+  border-radius: 1.5rem;
+  font-size: 1rem;
+  padding-left: 1rem;
+  border: 2px solid rgb(190, 190, 190);
+}
+.password {
+  display: block;
+  margin-bottom: 0.5rem;
+  outline: none;
+  width: 100%;
+  height: 2rem;
+  border-radius: 1.5rem;
+  font-size: 1rem;
+  padding-left: 1rem;
+  border: 2px solid rgb(190, 190, 190);
+}
+.icon {
+  position: relative;
+  top: 0.25rem;
+}
+.buttondiv {
+  margin: auto;
+  margin-top: 1.5rem;
+  width: 90%;
+}
+.signUpButton {
+  width: 105%;
+  height: 2.4rem;
+  background: black;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  border-radius: 1.5rem;
+}
+.message {
+  font-size: 1.25rem;
+  text-align: center;
+  color: red;
+}
+.signin {
+  color: #0d6efd;
+}
+.already {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.9rem;
+}
+@media screen and (max-width: 600px) {
+  .signUp {
+    width: 90%;
+  }
+}
+@media screen and (min-width: 601px) and (max-width: 1400px) {
+  .signUp {
+    width: 40%;
+  }
+}
