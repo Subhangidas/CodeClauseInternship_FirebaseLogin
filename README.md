@@ -15,7 +15,7 @@ This project was created as part of the Code Clause Internship. It focuses on im
 
 ## Overview
 
-The Phone Authentication Project is a React application that allows users to log in using their phone number. It uses Firebase for authentication and provides a simple interface for users to generate and verify OTPs.
+The Firebase Authentication Project is a React application that allows users to log in using their phone number. It uses Firebase for authentication and provides a simple interface for users to generate and verify OTPs.
 
 ## Features
 
@@ -42,7 +42,7 @@ Before you begin, ensure you have met the following requirements:
 2. Install dependencies:
 
    ```bash
-   cd phone-authentication-project
+   cd firebase-authentication-project
    npm install
    ```
 
